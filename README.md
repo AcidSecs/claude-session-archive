@@ -14,7 +14,7 @@ Full chats are stored on your disk in the folder you choose (default: Documents\
 Python 3.8 or newer. No other packages (standard library only).
 
 ## What it runs
-Two readable Python files, `convert_export.py` and `search_archive.py`, only when you ask Claude to file or search. They read the export you placed in the archive folder and write inside the archive folder. They make no network connections.
+Two readable Python tools, stored in the plugin as `.txt` files so they cannot run by accident. Claude shows them to you and copies them into your archive folder only after you agree, and runs them only when you ask it to file or search. They read the export you placed in the archive folder and write inside the archive folder. They make no network connections.
 
 ## Part of a set
 Switch it on or off with claude-setup-wizard.

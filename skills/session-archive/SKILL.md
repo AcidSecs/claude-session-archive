@@ -12,10 +12,13 @@ When turning it on, warn in plain words: **full chats are stored on your disk, w
 ## Needs
 Python 3.8 or newer (command `python`). Nothing else to install: the tools use only Python's own library.
 
+## Install the two tools (first time, after the user agrees)
+The plugin stores the tools as text: `tools/convert_export.py.txt` and `tools/search_archive.py.txt`. Show the user what they do in plain words, then copy them (dropping the `.txt`) into `<archive folder>\tools`. Use those copies below.
+
 ## Filing chats (user's own export)
 1. User exports their data in claude.ai: Settings, Privacy, Export data. They get an email link to a zip.
 2. User puts the zip in `<archive folder>\_incoming`.
-3. Run: `python "<plugin folder>\skills\session-archive\tools\convert_export.py"` (it uses the newest zip in `_incoming`). Only new or changed chats are rewritten.
+3. Run: `python "<archive folder>\tools\convert_export.py"` (it uses the newest zip in `_incoming`). Only new or changed chats are rewritten.
 4. To file a single note (for example a handoff): `python convert_export.py --md FILE --project PROJECT --session SESSION`.
 Chats are saved as folders: project, then session, then numbered parts of about 20 exchanges, plus an `INDEX.md`.
 
@@ -32,4 +35,4 @@ On request: Python runs; archive folder exists and is writable; `archive.db` exi
 Local files only. Never read the archive unless the user asked for a search. Never copy archive text to anywhere outside the user's PC.
 
 ## Guides for steps the user must do
-Whenever the user must do a multi-step job themselves (connect an app, install something, request a download), do not write a long reply. Make a tick-box guide: copy `guide/GUIDE_TEMPLATE.html` (in this plugin's folder) to a new file in the user's Documents folder, change only the GUIDE object near the bottom, and follow the instructions at the top of the template. Make it extremely detailed: about five small steps for each real step, plain English, the reason in brackets, a copy chip for anything to type, and only the steps a human must do. Keep the chat reply short and point to the guide.
+Whenever the user must do a multi-step job themselves (connect an app, install something, request a download), do not write a long reply. Make a tick-box guide: copy `guide/GUIDE_TEMPLATE.html.txt` (in this plugin's folder) to a NEW file named like `My_Guide.html` in the user's Documents folder (the template is stored as .txt on purpose; the copy is a normal web page), change only the GUIDE object near the bottom, and follow the instructions at the top of the template. Make it extremely detailed: about five small steps for each real step, plain English, the reason in brackets, a copy chip for anything to type, and only the steps a human must do. Keep the chat reply short and point to the guide.
