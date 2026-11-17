@@ -3,9 +3,19 @@
   "displayName": "Session Archive for Claude",
   "version": "0.1.0",
   "description": "OFF by default. Files your own claude.ai data export word for word as markdown on your PC, with a search tool so a new chat reads only what it needs. Nothing is sent anywhere. Needs Python 3.",
-  "author": { "name": "VectorNine Systems Inc. & Acid Secs Productions Inc." },
+  "author": {
+    "name": "VectorNine Systems Inc. & Acid Secs Productions Inc."
+  },
   "homepage": "https://github.com/AcidSecs/claude-session-archive",
   "repository": "https://github.com/AcidSecs/claude-session-archive",
   "license": "SEE LICENSE IN LICENSE",
-  "keywords": ["archive", "chat history", "search", "export", "markdown", "local"]
+  "keywords": [
+    "archive",
+    "chat history",
+    "search",
+    "export",
+    "markdown",
+    "local"
+  ],
+  "icon": ".claude-plugin/icon.png"
 }

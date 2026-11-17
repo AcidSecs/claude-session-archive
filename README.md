@@ -20,4 +20,5 @@ Two readable Python files, `convert_export.py` and `search_archive.py`, only whe
 Switch it on or off with claude-setup-wizard.
 
 Created by Soroosh Hedayat
+
 Designed in Collaboration by: VectorNine Systems Inc. & Acid Secs Productions Inc.
