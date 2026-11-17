@@ -17,5 +17,6 @@
     "markdown",
     "local"
   ],
-  "icon": ".claude-plugin/icon.png"
+  "icon": ".claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://github.com/AcidSecs/claude-session-archive#data-handling"
 }

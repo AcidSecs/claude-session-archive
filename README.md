@@ -22,3 +22,7 @@ Switch it on or off with claude-setup-wizard.
 Created by Soroosh Hedayat
 
 Designed in Collaboration by: VectorNine Systems Inc. & Acid Secs Productions Inc.
+
+## Data handling
+
+It files your own Claude export on your own PC, using two small Python tools stored as .txt files. Claude shows them to you and copies them only after you agree, and runs them only when you ask it to file or search. Your chats never leave your PC. Nothing is sent to the authors of this plugin. We run no server and receive no data, so nothing is retained by us. The plugin sends nothing to any outside service. Everything it makes stays on your own PC or in your own Google Drive and Claude account, and you can delete it any time.
