@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Turn a claude.ai data export (zip or conversations.json) into the Session Archive.
 
 Usage (from any folder):

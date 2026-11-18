@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Search the Session Archive without filling your context window.
 
   python search_archive.py "key words" [-n 5] [--project NAME]   -> at most n short hits, each with a path
